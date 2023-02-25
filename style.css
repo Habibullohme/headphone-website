@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@700&family=Montserrat&family=Roboto:wght@700&display=swap");
+/* @import url("https://fonts/Poppins/Poppins-Regular.ttf"); */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@700&family=Montserrat&family=Poppins:wght@600&family=Roboto:wght@700&display=swap");
+
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --headphone-font-family: "Poppins", sans-serif;
+}
+
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(7, 7, 27);
+}
+
+header {
+    background: none;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background: none;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 300px;
+
+}
+
+.main-left-header {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    padding-left: 60px;
+}
+
+.nav-list {
+    color: white;
+    gap: 50px;
+    list-style: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+}
+
+.nav-list ul {
+    display: flex;
+    color: white;
+    gap: 50px;
+    list-style: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+
+}
+
+
+.main-wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(7, 7, 27);
+    display: flex;
+}
+
+.main-left-wrapper {
+    margin-left: -640px;
+    margin-top: 50px;
+}
+
+.left-main {
+    display: flex;
+    align-items: center;
+
+}
+
+.left-main-text {
+    color: white;
+    font-size: 45px;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+.main-left-color-wrapper {
+    margin-left: 150px;
+    color: white;
+    font-size: 16px;
+    font-family: var(--font-family-header);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.color_select {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text:first-child {
+    margin-bottom: 15px;
+}
+
+.text:last-child {
+    margin-top: 10px;
+}
+
+.text_button {
+    width: 25%;
+    margin-left: 150px;
+    display: flex;
+    gap: 250px;
+}
+
+.text_button h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.btn button {
+    width: 190px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-family-header);
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+.main-headphone {
+    width: 398px;
+    height: 548px;
+    position: absolute;
+    right: 275px;
+    margin-top: 90px;
+}
+
+.main-right-wrapper {
+    margin-left: 350px; 
+    width: 30%;
+    height: 100vh;
+    background: url(./img/right_card_bg.png) no-repeat;
+}
